@@ -1,3 +1,19 @@
 {
-"terminal.integrated.scrollback": 50000
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "text": "This dev container includes an up-to-date version of Git, built from source as needed, pre-installed and available on the `PATH`."
+        },
+        {
+            "text": "This dev container includes an up-to-date version of Git, built from source as needed, pre-installed and available on the `PATH`."
+        },
+        {
+            "text": "This dev container includes the GitHub CLI (`gh`), which is pre-installed and available on the `PATH`. IMPORTANT: `gh api -f` does not support object values, use multiple `-f` flags with hierarchical keys and string values instead. When using GitHub actions `actions/upload-artifact` or `actions/download-artifact` use v4 or later."
+        },
+        {
+            "text": "This workspace is in a dev container running on \"Ubuntu 24.04.4 LTS\".\n\nUse `\"$BROWSER\" <url>` to open a webpage in the host's default browser.\n\nSome of the command line tools available on the `PATH`: `apt`, `dpkg`, `git`, `gh`, `curl`, `wget`, `ssh`, `scp`, `rsync`, `gpg`, `ps`, `lsof`, `netstat`, `top`, `tree`, `find`, `grep`, `zip`, `unzip`, `tar`, `gzip`, `bzip2`, `xz`"
+        }
+    ],
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "cmake.configureOnOpen": false,
+    "terminal.integrated.scrollback": 50000
 }
